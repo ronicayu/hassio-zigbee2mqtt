@@ -4,27 +4,16 @@
   "slug": "zigbee2mqtt_edge",
   "description": "Development build of the Zigbee2MQTT add-on",
   "uart": true,
-  "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt-edge",
+  "url": "https://github.com/ronicayu/hassio-zigbee2mqtt/tree/master/zigbee2mqtt-edge",
   "startup": "application",
-  "services": [
-    "mqtt:need"
-  ],
-  "arch": [
-    "aarch64",
-    "amd64",
-    "armhf",
-    "armv7",
-    "i386"
-  ],
+  "services": ["mqtt:need"],
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
   "boot": "auto",
   "init": false,
   "ingress": true,
   "timeout": 30,
   "panel_icon": "mdi:zigbee",
-  "map": [
-    "share:rw",
-    "config:rw"
-  ],
+  "map": ["share:rw", "config:rw"],
   "ports": {
     "8485/tcp": 8485,
     "8099/tcp": null
