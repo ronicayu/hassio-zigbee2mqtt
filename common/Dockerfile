@@ -28,6 +28,7 @@ RUN apk add --no-cache --virtual .buildtools npm make gcc g++ linux-headers udev
     fi; \
     echo "Installed Zigbee2MQTT @ version $(cat /app/dist/.hash)" && \
     cd /app && \
+    npm install && \
     npm ci --no-audit --no-optional --no-update-notifier --unsafe-perm && \
     npm run build && \
     rm -rf node_modules && \

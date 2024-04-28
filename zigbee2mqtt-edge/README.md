@@ -24,4 +24,4 @@ To update the `edge` version of the add-on, you will need to uninstall and re-in
 1. Uninstall: **Settings → Add-ons → Zigbee2MQTT Edge → Uninstall**
 1. Refresh repo: **Settings → Add-ons → Add-ons store → ⋮ → Check for updates**
 1. Install: **Settings → Add-ons → Add-ons store → Zigbee2MQTT Edge → Install**
-1. Restore config to: **Settings → Add-ons → Zigbee2MQTT Edge → Configuration → ⋮ → Edit in YAML**, paste your config from step 1.
+1. Restore config to: **Settings → Add-ons → Zigbee2MQTT Edge → Configuration → ⋮ → Edit in YAML**, paste your config from step
